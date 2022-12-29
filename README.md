@@ -1,5 +1,11 @@
-# Whisper
 
+**NOTE**:
+<br>
+Some folks reported signigiface slow down in the lastest version including `large-v2` checkpoint, therefore it has been temporaily removed from https://replicate.com/openai/whisper, but added here https://replicate.com/cjwbw/whisper instead if you want to access it.
+
+Have personally tested both versions however did not find the slow-down issue as reported. It has been raised to the team and see how to proceed regarding merge back to the mainline model.
+
+# Whisper
 [[Blog]](https://openai.com/blog/whisper)
 [[Paper]](https://cdn.openai.com/papers/whisper.pdf)
 [[Model card]](model-card.md)
