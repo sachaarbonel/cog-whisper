@@ -59,6 +59,11 @@ class Predictor(BasePredictor):
             default=False,
             description="Translate the text to English when set to True",
         ),
+    #    --word_timestamps True
+        word_timestamps: bool = Input(
+            default=False,
+            description="Output word-level timestamps when set to True",
+        ),
         language: str = Input(
             choices=sorted(LANGUAGES.keys())
             + sorted([k.title() for k in TO_LANGUAGE_CODE.keys()]),
@@ -116,6 +121,7 @@ class Predictor(BasePredictor):
 
         args = {
             "language": language,
+            "word_timestamps": word_timestamps,
             "patience": patience,
             "suppress_tokens": suppress_tokens,
             "initial_prompt": initial_prompt,
