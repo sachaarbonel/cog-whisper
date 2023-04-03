@@ -1,14 +1,14 @@
 build:
   gpu: true
-  python_version: "3.8"
+  python_version: "3.9"
   system_packages:
     - "ffmpeg"
   python_packages:
     - "tqdm==4.64.1"
-    - "torch==1.13.0"
-    - "torchaudio==0.13.0"
-    - "numpy==1.23.5"
-    - "transformers==4.25.1"
+    - "torch==1.10.1"
+    - "torchaudio==0.10.1"
+    - "numpy==1.22.4"
+    - "transformers==4.27.4"
     - "ffmpeg-python==0.2.0"
     - "more_itertools==9.0.0"
 
