@@ -5,7 +5,7 @@ build:
     - "ffmpeg"
   python_packages:
     - "tqdm==4.64.1"
-    - "torch==1.10.1"
+    - "torch==1.10.0"
     - "torchaudio==0.10.1"
     - "numpy==1.22.4"
     - "transformers==4.27.4"
